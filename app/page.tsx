@@ -11,6 +11,9 @@ const page = () => {
         Welcome to Better auth
       </h1>
       <p className="text-gray-400">The future of authentication is here.</p>
+      <div>
+        <form action=""></form>
+      </div>
     </div>
   );
 };
