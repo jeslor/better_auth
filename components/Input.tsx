@@ -8,7 +8,7 @@ type InputProps = {
 const Input = ({ placeholder, type = "text" }: InputProps) => {
   return (
     <div className="flex flex-col gap-2">
-      <label className="text-[14px]">{placeholder}</label>
+      <label className="text-[14px] capitalize">{placeholder}</label>
       <input
         type={type}
         placeholder={placeholder}
